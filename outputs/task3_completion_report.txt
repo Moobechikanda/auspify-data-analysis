@@ -1,0 +1,26 @@
+TASK 3: COUNTRY-WISE CONTENT ANALYSIS
+========================================
+Countries represented: 85
+
+TOP 10 COUNTRIES
+       country  title_count
+ United States         3240
+         India         1057
+United Kingdom          638
+      Pakistan          421
+        Canada          271
+         Japan          259
+   South Korea          214
+        France          213
+         Spain          182
+        Mexico          138
+
+METHOD
+Titles listing multiple countries are counted once
+for each listed country. Unknown country values are
+excluded from the ranking.
+
+LIMITATION
+These counts describe the supplied dataset. They do
+not measure viewing hours, popularity, or current
+Netflix availability.

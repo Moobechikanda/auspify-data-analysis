@@ -1,0 +1,24 @@
+TASK 2: CONTENT TYPE ANALYSIS
+=============================
+
+Dataset: netflix_cleaned.csv
+Total titles analysed: 8,790
+
+RESULTS
+-------
+Movies: 6,126 (69.69%)
+TV Shows: 2,664 (30.31%)
+
+KEY FINDINGS
+------------
+Movies account for 69.69% of the titles.
+TV Shows account for 30.31% of the titles.
+
+The dataset contains 3,462 more
+Movies than TV Shows.
+
+LIMITATION
+----------
+These results describe the content represented in this
+dataset. They do not measure viewing hours, popularity,
+subscriber preferences, or current Netflix availability.

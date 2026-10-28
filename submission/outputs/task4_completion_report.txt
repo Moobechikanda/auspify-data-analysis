@@ -1,0 +1,22 @@
+TASK 4: RELEASE YEAR TREND ANALYSIS
+===================================
+
+Titles analysed: 8,790
+Release years covered: 1925–2021
+
+Peak release year in the dataset: 2018
+Titles released in that year: 1,146
+
+INTERPRETATION
+--------------
+The chart shows how many titles in this dataset were
+originally released in each year.
+
+These are release years, not the dates when Netflix
+added titles to its catalogue.
+
+LIMITATIONS
+-----------
+The dataset describes titles available in the supplied
+file. It does not by itself establish why releases rose
+or fell, nor does it measure audience demand.

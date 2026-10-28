@@ -1,0 +1,24 @@
+rating,type,title_count
+G,Movie,41
+NC-17,Movie,3
+NR,Movie,75
+NR,TV Show,4
+PG,Movie,287
+PG-13,Movie,490
+R,Movie,797
+R,TV Show,2
+TV-14,Movie,1427
+TV-14,TV Show,730
+TV-G,Movie,126
+TV-G,TV Show,94
+TV-MA,Movie,2062
+TV-MA,TV Show,1143
+TV-PG,Movie,540
+TV-PG,TV Show,321
+TV-Y,Movie,131
+TV-Y,TV Show,175
+TV-Y7,Movie,139
+TV-Y7,TV Show,194
+TV-Y7-FV,Movie,5
+TV-Y7-FV,TV Show,1
+UR,Movie,3

@@ -1,0 +1,52 @@
+TASK 5: CONTENT RATING & GENRE ANALYSIS
+================================================
+Total unique titles: 8,790
+Titles with a recorded rating: 8,790
+Titles without a recorded rating: 0
+Distinct rating categories: 14
+Distinct genres identified: 42
+
+MOST COMMON CONTENT RATINGS
+------------------------------
+TV-MA: 3,205 titles (36.46%)
+TV-14: 2,157 titles (24.54%)
+TV-PG: 861 titles (9.80%)
+R: 799 titles (9.09%)
+PG-13: 490 titles (5.57%)
+TV-Y7: 333 titles (3.79%)
+TV-Y: 306 titles (3.48%)
+PG: 287 titles (3.27%)
+TV-G: 220 titles (2.50%)
+NR: 79 titles (0.90%)
+
+TOP 10 GENRES
+------------------------------
+International Movies: 2,752 titles
+Dramas: 2,426 titles
+Comedies: 1,674 titles
+International TV Shows: 1,349 titles
+Documentaries: 869 titles
+Action & Adventure: 859 titles
+TV Dramas: 762 titles
+Independent Movies: 756 titles
+Children & Family Movies: 641 titles
+Romantic Movies: 616 titles
+
+KEY FINDINGS
+------------------------------
+The most common rating is TV-MA (3,205 titles).
+The most common genre is International Movies (2,752 titles).
+A title may belong to multiple genres, so genre counts can add up to more than the total number of titles.
+Content ratings indicate classification categories; they do not directly measure viewership or popularity.
+
+OUTPUTS
+------------------------------
+task5_rating_summary.csv
+task5_genre_summary.csv
+task5_rating_by_type.csv
+task5_rating_distribution.png
+task5_top_genres.png
+task5_ratings_by_type.png
+task5_interactive_ratings.html
+task5_interactive_genres.html
+task5_interactive_rating_comparison.html

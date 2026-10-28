@@ -1,0 +1,57 @@
+TASK 6: NETFLIX BUSINESS INSIGHTS REPORT
+=======================================================
+
+EXECUTIVE SUMMARY
+-------------------------
+This analysis explores 8,790 unique Netflix titles in the supplied dataset. It examines catalogue composition, content ratings, genres, country associations, and release-year patterns.
+
+DATA QUALITY OVERVIEW
+-------------------------
+Rows: 8,790
+Unique titles: 8,790
+Duplicate rows: 0
+Missing cells in loaded cleaned dataset: 0
+Titles with missing ratings: 0
+Titles with missing countries: 0
+Titles with missing release years: 0
+Titles with missing date_added: 0
+
+KEY FINDINGS
+-------------------------
+1. The dataset contains 8,790 unique titles. It has 8,790 rows, 0 duplicate rows and 0 missing cells in the loaded cleaned file.
+2. Movie is the most common content type, with 6,126 titles (69.69% of the catalogue).
+3. TV-MA is the most common recorded rating, covering 3,205 titles (36.46% of titles with ratings).
+4. International Movies is the most common genre, associated with 2,752 titles. Titles can have multiple genres, so genre counts overlap.
+5. United States is the country associated with the most titles (3,240). A title can be associated with more than one country.
+6. The release year with the highest number of titles in this dataset is 2018, with 1,146 titles. This is based on release year, not the date Netflix added each title.
+
+BUSINESS RECOMMENDATIONS
+-------------------------
+1. Catalogue planning: use the genre and content-type summaries to understand the composition of the available catalogue. Validate investment decisions against viewing and cost data before acting.
+2. Audience strategy: use content ratings to plan classification-aware content discovery and messaging, while validating the intended audience with actual audience research.
+3. International catalogue analysis: use country associations to identify areas for further investigation. Country counts alone do not establish demand, profitability, or local audience size.
+4. Trend analysis: compare release years with Netflix addition dates in future analysis to distinguish content age from acquisition or catalogue-addition timing.
+5. Data improvement: join this catalogue data with viewership, completion rates, subscription, licensing-cost, and revenue data before making financial or performance recommendations.
+
+LIMITATIONS
+-------------------------
+This dataset describes catalogue titles. It does not provide viewership, subscriber demographics, revenue, licensing costs, or profitability. Therefore, the analysis cannot establish which titles are most watched or most profitable.
+Country and genre counts overlap because a title can have multiple country and genre associations.
+Release-year counts measure the years titles were released, not the dates they were added to Netflix or produced.
+Findings describe this dataset and should not automatically be treated as a complete representation of Netflix's current catalogue.
+
+OUTPUT FILES
+-------------------------
+task6_data_quality_summary.csv
+task6_content_type_summary.csv
+task6_rating_summary.csv
+task6_genre_summary.csv
+task6_country_summary.csv
+task6_yearly_summary.csv
+task6_content_type_chart.png
+task6_content_type.html
+task6_ratings.html
+task6_genres.html
+task6_countries.html
+task6_release_years.html
+task6_business_dashboard.html
